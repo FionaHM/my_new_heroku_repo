@@ -1,0 +1,43 @@
+* {
+	border-style: solid;
+	border-color: red;
+	border-width: 2px;
+}
+#fixed {
+	position: fixed; 
+	background: grey;
+	width: 10%;
+	height: 10%;
+	top: 0;
+	left: 0;
+
+}
+h1 {
+	margin-top: 10%;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+p {
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+#relative{
+
+	margin-left: 25%;
+    margin-right: 25%;
+    width: 50%;
+    height: 20%;
+    background: grey;
+}
+#absolute{
+	position: absolute;
+	background: black;
+	width: 25%;
+	height : 25%;
+	bottom: 0 ;
+	right: -10px;
+
+
+}
